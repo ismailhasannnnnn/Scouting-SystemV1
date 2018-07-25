@@ -18,13 +18,13 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_height="attr/actionBarSize"
             android:layout_weight="1"
-            android:background="?attr/colorPrimary"
+            android:background="attr/colorPrimary"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="Match Form"
-            app:subtitle="Where data is made">
+            app:subtitle="Where data is made.">
 
         </android.support.v7.widget.Toolbar>
 
@@ -34,13 +34,13 @@
             android:layout_height="wrap_content">
 
             <android.support.design.widget.TabItem
-                android:id="@+id/tabItem"
+                android:id="@+id/Autonomous"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Autonomous" />
 
             <android.support.design.widget.TabItem
-                android:id="@+id/tabItem2"
+                android:id="@+id/Teleop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tele-Op" />
@@ -53,6 +53,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-
 
 </android.support.design.widget.CoordinatorLayout>

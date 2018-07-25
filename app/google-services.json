@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "64019360960",
+    "firebase_url": "https://scouting-system-609ca.firebaseio.com",
+    "project_id": "scouting-system-609ca",
+    "storage_bucket": "scouting-system-609ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64019360960:android:e7691eb665de034b",
+        "android_client_info": {
+          "package_name": "team696.frc.scoutingsystemv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64019360960-ru68ptbmjistkaogbe6n4q9dj5nbrq7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIlLYupW4KYVK3wi3QLRJspecnRKAjxHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
